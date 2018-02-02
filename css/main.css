@@ -97,15 +97,87 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* MAIN STYLES */
+html,body{
+  min-height: 100%;
+  background-color: #F9FAFC;
+  font-family: 'Roboto','Helvetica Neue',Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 9rem;
+  font-weight: 100;
+  letter-spacing: 4px;
+  color: #fff;
+  margin: 0;
+  margin-top: -159px;
+  opacity: 0.7;
+}
+h2{ 
+  font-size: 2.5rem;
+  font-weight: 100;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+h3{
+  font-size: 3rem;
+  font-weight: 200;
+  color: #9B9B9B;
+}
+h6{
+  margin-top: 0;
+  font-size: 2rem;
+  font-weight: 200;
+  /*opacity: .5;*/
+}
+li,p{
+  font-size: 1rem;
+  font-weight: 300;
+  opacity: 1;
+  line-height: 30px;
+}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+input{
+  /*opacity: 0.5;*/
+  font-family: 'Roboto','Helvetica Neue',Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  /*color: #EFF2F7;*/
+  width: 850px;
+  height: 70px;
+  padding-left: 20px;
+  border-radius: 5px;
+  border: 1px solid #E5E9F2;
+  /* glow */
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+input:focus{
+  -moz-box-shadow: 0 0 5px #51cbee;
+  -webkit-box-shadow: 0 0 5px #51cbee;
+  box-shadow: 0 0 5px #51cbee;
+  border: 1px solid #51cbee;
+}
 
 
-
-
-
-
-
-
-
+.block-color{
+  background-color: #e67e22;
+  background: url(../img/sylvia_100v.jpeg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+}
 
 
 
@@ -116,6 +188,26 @@ textarea {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
+
+
+.center-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.float-left{
+  float: left !important;
+}
+
+
+
 
 /*
  * Hide visually and from screen readers
