@@ -101,12 +101,10 @@ textarea {
 html,body{
   min-height: 100%;
   background-color: #F9FAFC;
-  font-family: 'Roboto','Helvetica Neue',Helvetica, Arial, sans-serif;
-  text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
 h1{
-  font-family: 'Playfair Display', serif;
   font-size: 7rem;
   font-weight: 100;
   letter-spacing: 4px;
@@ -119,12 +117,12 @@ h2{
   font-size: 2.5rem;
   font-weight: 100;
   opacity: 0.5;
-  text-transform: uppercase;
 }
 h3{
   font-size: 2.5rem;
   font-weight: 200;
   color: #9B9B9B;
+  font-family: 'Roboto','Helvetica Neue',Helvetica, Arial, sans-serif;
 }
 h6{
   margin-top: 0;
@@ -133,10 +131,12 @@ h6{
   /*opacity: .5;*/
 }
 li,p{
+  font-family: 'Roboto','Helvetica Neue',Helvetica, Arial, sans-serif;
   font-size: 1rem;
-  font-weight: 300;
-  opacity: 1;
+  font-weight: 100;
+  opacity: 0.7;
   line-height: 30px;
+  max-width: 500px;
 }
 a {
   color: inherit; /* blue colors for links too */
@@ -167,6 +167,14 @@ input:focus{
   border: 1px solid #51cbee;
 }
 
+/* NAVBAR */
+.navbar{
+  padding: 20px;
+  text-align: left;
+  color: #fff;
+  opacity: 0.7;
+}
+
 
 .block-color{
   background-color: #e67e22;
@@ -176,10 +184,25 @@ input:focus{
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  height: 300px;
+  height: 250px;
 }
 
+.section-hero{
+  text-align: center;
+}
+.section-about{
+  /*width: 100%;*/
+  margin-top: 180px;
+  padding: 80px;
+  background-color: #fff;
+}
 
+.footer{
+  background-color: #f5f5f5;
+}
+.footer p{
+  font-size: 12px;
+}
 
 
 

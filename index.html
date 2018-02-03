@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
+  <title>Phonology</title>
+  <meta name="description" content="Instead of remembering long strings of integers, remember a unique phrase that we generate for the contacts worth always knowing.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="site.webmanifest">
@@ -12,6 +12,7 @@
   <!-- Place favicon.ico in the root directory -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <!-- d3 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
 
@@ -24,13 +25,34 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <div>
+
+  <!-- app -->
+  <div class="section-hero">
     <div class="block-color">
+      <div class="navbar">
+        <a href="#about">About</a>
+      </div>
     </div>
     <h1>Phonology.io</h1>
     <input id="input" placeholder="Type a number or known phrase">
-    <h3 id="output">slimy naked boulder</h3>
+    <h3 id="output">super awesome tool</h3>
   </div>
+
+  <!-- about -->
+  <div id="about" class="section-about">
+    <h2><i class="fas fa-question-circle"></i> Why Phonology</h2>
+    <p>Humans are historically bad at remembering long strings of meaningless numbers. However, some numbers are worth remembering. That's why Phonology.io was developed. Instead of remembering long strings of integers, remember a unique phrase that we generate for the contacts worth always knowing. When you need the number again, just come back here and we'll translate it for you.</p>
+  </div>
+
+  <!-- footer -->
+  <div class="container-fluid footer center-flex">
+    <div class="col-md-6 text-center">
+      <div class="">
+        <p>Developed by <a href="http://saqif.com" target="_blank">Saqif Badruddin</p>
+      </div>
+    </div>
+  </div>
+
   <script src="js/vendor/modernizr-3.5.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
