@@ -35,7 +35,7 @@ d3.csv("../data/all-10k.txt", function(data) {
 $("#input").keyup(function(){
 	var value = $("#input").val();
 	if(value==""){
-		$("#output").text("super awesome tool");
+		$("#output").text("simple phone numbers");
 	}
 	// if number
 	else if(hasNumber(value)){
