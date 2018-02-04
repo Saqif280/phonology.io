@@ -110,6 +110,7 @@ h1{
   letter-spacing: 4px;
   color: #fff;
   margin: 0;
+  /*margin-top: -183px;*/
   margin-top: -123px;
   opacity: 0.7;
 }
